@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+	"test": "npm run test:html",
+  "test:html": "nu-html-checker *.html",
+
+  "build": "npm run build:sass && npm run build:autoprefixer && npm run test",
+  "build:sass": "sass --sourcemap=none --update sass:css",
+	"build:autoprefixer": "autoprefixer-cli css/style.css"
+
+
+},
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leoleonard/kodilla_github_song_2.git"
