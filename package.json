@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/leoleonard/kodilla_github_song_2/issues"
   },
-  "homepage": "https://github.com/leoleonard/kodilla_github_song_2#readme"
+  "homepage": "https://github.com/leoleonard/kodilla_github_song_2#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
 }
