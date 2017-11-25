@@ -1,0 +1,17 @@
+body {
+  background-color: #ccc; }
+
+.container {
+  display: flex; }
+
+header {
+  text-align: center;
+  text-decoration: underline; }
+
+.song {
+  text-align: center;
+  padding: 16px;
+  border: 1px solid #ccc;}
+
+.song .title {
+  font-size: 10px; }
